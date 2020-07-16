@@ -1,0 +1,128 @@
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+
+}
+li {
+    float: left;
+    margin-left: 10px;
+    text-align: left;
+
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+
+
+
+}
+
+li a:hover,.dropdown:hover{
+    color: red;
+}
+
+a img{
+    height: 70px;
+    width: 50px;
+    padding: 0px;
+    position: absolute;
+
+}
+
+
+
+
+
+.PageTop{
+    height: 60px;
+    width: 100%;
+ //   border: solid;
+    border-bottom-style: solid;
+    border-color: white;
+    overflow: hidden;
+}
+.PageTop a img{
+    border: 1px solid yellow;
+    width: 100%;
+
+}
+
+.Header{
+    height: 200px;
+    width: auto;
+}
+.Header .login{
+    height: 29px;
+    border-bottom-style: solid;
+    border-color: white;
+
+}
+.Header .search{
+    height: 100px;
+
+
+}
+.Header .Nav_first{
+    height: 40px;
+
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    min-height: 300px;
+    min-width: 170px;
+    margin-left: 20px;
+
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    padding: 12px 16px;
+
+}
+.dropdown:hover .dropdown-content {
+    display: block ;
+    color:black;
+
+
+}
+
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    background-color: lightgrey;
+    height: 170px;
+}
+.flex-item_aside {
+    background-color: cornflowerblue;
+    width: 20%;
+    height: 100%;
+
+    background-color: aqua;
+}
+.flex-item_center {
+    background-color: cornflowerblue;
+    width: 60%;
+    height: 100%;
+    background-color: burlywood;
+}
+

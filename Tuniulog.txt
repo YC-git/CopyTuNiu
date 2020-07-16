@@ -1,0 +1,12 @@
+Layout:
+    PageTop
+    Header
+    Main
+    Offer_service
+    faq_wrap
+    trav_sev
+    Three_trav
+    Four_imags
+    TN_footer
+    footer_link
+    Float_menu
