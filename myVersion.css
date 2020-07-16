@@ -42,8 +42,26 @@ a img{
 }
 
 
+.row{
+
+}
+.col{
+    background-color: #F9FAFB;
+    padding: 5px;
+
+    text-align: center;
+}
+
+div {
+    display: grid;
+}
 
 
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px; <!--repeat(3, 33.33%);-->
+    grid-template-rows: 100px 100px 100px;
+}
 
 .PageTop{
     height: 60px;
