@@ -64,7 +64,9 @@ input[type=text] {
 input[type=text]:focus {
     width: 100%;
 }
-
+button{
+    background-color: #4CAF50;
+}
 
 
 .search .search_container div{
@@ -116,7 +118,7 @@ input[type=text]:focus {
 
 }
 .Header .search{
-    height: 100px;
+    height: 85px;
 
 
 }
@@ -181,4 +183,28 @@ input[type=text]:focus {
 
 .search_container .dropdown{
     margin-top: 30px;
+}
+
+
+
+.Nav_first ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b8f08;
+    height: 40px;
+}
+
+.Nav_first li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Nav_first li a:hover {
+    background-color: #38c249;
 }
