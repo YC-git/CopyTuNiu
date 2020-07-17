@@ -11,8 +11,10 @@ ul {
     list-style-type: none;
 
 }
+
 li {
-    float: left;
+   float: left;
+
     margin-left: 10px;
     text-align: left;
 
@@ -25,9 +27,9 @@ li a {
     padding: 0px 16px;
     text-decoration: none;
 
-
-
 }
+
+
 
 li a:hover,.dropdown:hover{
     color: red;
@@ -149,6 +151,7 @@ button{
 .dropdown:hover .dropdown-content {
     display: block ;
     color:black;
+
 }
 
 
@@ -208,3 +211,139 @@ button{
 .Nav_first li a:hover {
     background-color: #38c249;
 }
+
+.Nav_verticalOne li{
+    float: none;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.Nav_verticalOne ul{
+    list-style-type: none ;
+    margin-top: 5px;
+    padding: 0 ;
+    width: 118px;
+    display: inline-block;
+
+
+    background-color: #f1f1f1;
+
+}
+
+
+
+
+.Nav_verticalOne li a{
+    display: block ;
+    color: #000;
+    padding: 9px 16px;
+    text-decoration: none ;
+    width: 86px;
+    height: 51px;
+}
+
+.Nav_verticalOne li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.Nav_verticalOne li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.Vice_nav{
+    margin-top: 5px;
+    height: 414px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.Vice_nav1{
+    display: none;
+}
+.Vice_nav2{
+    display: none;
+}
+.Vice_nav3{
+    display: none;
+}
+.Vice_nav4{
+    display: none;
+}
+.Vice_nav5{
+    display: none;
+}
+
+
+#one1 a:focus:after  {
+    content: "holiday";
+    margin-top: -30px;
+    margin-left: 102px;
+    height: 414px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: green;
+
+}  /*need a father-son relationship*/
+
+
+
+#one2 a:focus:after  {
+    content: "Airplane";
+    margin-top: -120px;
+    margin-left: 102px;
+    height: 414px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: gold;
+}  /*need a father-son relationship*/
+
+#one3 a:focus:after  {
+    content: "hotel";
+    margin-top: -168px;
+    margin-left: 102px;
+    height: 414px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: aliceblue;
+
+}  /*need a father-son relationship*/
+
+#one4 a:focus:after  {
+    content: "Train";
+    margin-top: -237px;
+    margin-left: 102px;
+    height: 414px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: navajowhite;
+}  /*need a father-son relationship*/
+
+#one5 a:focus:after  {
+    content: "Ship";
+    margin-top: -306px;
+    margin-left: 102px;
+    height: 414px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: lavender;
+}  /*need a father-son relationship*/
+
+#one6 a:focus:after  {
+    content: "Entrance";
+    margin-top: -396px;
+    margin-left: 102px;
+    height: 414px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: royalblue;
+}  /*need a father-son relationship*/
+
