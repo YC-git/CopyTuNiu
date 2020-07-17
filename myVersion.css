@@ -119,6 +119,7 @@ button{
     height: 29px;
     border-bottom-style: solid;
     border-color: white;
+    background: #f8f8f8;
 
 }
 .Header .search{
@@ -169,13 +170,13 @@ button{
     width: 20%;
     height: 100%;
 
-    background-color: aqua;
+    background-color: white;
 }
 .flex-item_center {
     background-color: cornflowerblue;
     width: 60%;
     height: 100%;
-    background-color: burlywood;
+    background-color: white;
 }
 
 .search_container{
@@ -218,6 +219,8 @@ button{
     float: none;
     margin-left: 0px;
     margin-top: 0px;
+    background: #333333;
+
 }
 
 .Nav_verticalOne ul{
@@ -237,7 +240,7 @@ button{
 
 .Nav_verticalOne li a{
     display: block ;
-    color: #000;
+    color: #f9f9f9;
     padding: 9px 16px;
     text-decoration: none ;
     width: 86px;
@@ -245,13 +248,13 @@ button{
 }
 
 .Nav_verticalOne li a.active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: white;
+    color: green;
 }
 
 .Nav_verticalOne li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+    background-color: white;
+    color: green;
 }
 
 .Vice_nav{
@@ -287,7 +290,7 @@ button{
     width: 350px;
     display: inline-block;
     vertical-align: top;
-    background-color: green;
+    background-color: grey;
 
 }  /*need a father-son relationship*/
 #one2 a:focus:after  {
@@ -385,5 +388,10 @@ section div a img{
     width: auto;
     padding:10px;
 
+
+}
+
+footer{
+    text-align: center;
 
 }
