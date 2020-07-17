@@ -1,4 +1,6 @@
-
+.Main div{
+    border: solid red;
+}
 a{
     text-decoration: none;
     color: black;
@@ -288,9 +290,6 @@ button{
     background-color: green;
 
 }  /*need a father-son relationship*/
-
-
-
 #one2 a:focus:after  {
     content: "Airplane";
     margin-top: -120px;
@@ -300,7 +299,7 @@ button{
     display: inline-block;
     vertical-align: top;
     background-color: gold;
-}  /*need a father-son relationship*/
+}
 
 #one3 a:focus:after  {
     content: "hotel";
@@ -312,7 +311,7 @@ button{
     vertical-align: top;
     background-color: aliceblue;
 
-}  /*need a father-son relationship*/
+}
 
 #one4 a:focus:after  {
     content: "Train";
@@ -323,7 +322,7 @@ button{
     display: inline-block;
     vertical-align: top;
     background-color: navajowhite;
-}  /*need a father-son relationship*/
+}
 
 #one5 a:focus:after  {
     content: "Ship";
@@ -334,8 +333,7 @@ button{
     display: inline-block;
     vertical-align: top;
     background-color: lavender;
-}  /*need a father-son relationship*/
-
+}
 #one6 a:focus:after  {
     content: "Entrance";
     margin-top: -396px;
@@ -345,5 +343,19 @@ button{
     display: inline-block;
     vertical-align: top;
     background-color: royalblue;
-}  /*need a father-son relationship*/
+}
 
+.Main{
+
+    display: grid;
+    grid-template-columns: 30% repeat(3,23.3333%); <!--repeat(3, 33.33%);-->
+    grid-template-rows: repeat(6, 300px);
+}
+
+section {
+
+    /*width: 100px;*/
+    height: 200px;
+    background-color: #555555;
+    border: solid lightcoral;
+}
