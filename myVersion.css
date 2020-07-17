@@ -46,7 +46,7 @@ span{
 }
 
 input[type=text] {
-    width: 180px;
+    width: 150px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -67,7 +67,10 @@ input[type=text]:focus {
 
 
 
-
+.search .search_container div{
+    text-align: center;
+    padding-top: 20px;
+}
 
 .row{
 
@@ -169,10 +172,10 @@ input[type=text]:focus {
 }
 
 .search_container{
-    margin-left: 200px;
+    margin-left: 110px;
     display: grid;
     grid-template-columns: 20% 40% 20%;
-    grid-template-rows: 100px ;
+    grid-template-rows: 85px ;
     vertical-align: middle
 }
 
