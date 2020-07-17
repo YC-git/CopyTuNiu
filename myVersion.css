@@ -41,6 +41,33 @@ a img{
 
 }
 
+span{
+    text-align: center
+}
+
+input[type=text] {
+    width: 180px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://static.runoob.com/images/mix/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    text-align: center;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+
+
 
 .row{
 
@@ -52,9 +79,7 @@ a img{
     text-align: center;
 }
 
-div {
-    display: grid;
-}
+
 
 
 .container {
@@ -101,9 +126,10 @@ div {
 .dropdown {
     position: relative;
     display: inline-block;
-    min-height: 300px;
+    height: 30px;
     min-width: 170px;
     margin-left: 20px;
+    text-align: center;
 
 
 }
@@ -118,8 +144,6 @@ div {
 .dropdown:hover .dropdown-content {
     display: block ;
     color:black;
-
-
 }
 
 
@@ -144,3 +168,14 @@ div {
     background-color: burlywood;
 }
 
+.search_container{
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 20% 40% 20%;
+    grid-template-rows: 100px ;
+    vertical-align: middle
+}
+
+.search_container .dropdown{
+    margin-top: 30px;
+}
