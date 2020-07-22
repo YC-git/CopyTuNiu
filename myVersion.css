@@ -46,11 +46,11 @@ a img{
 }
 
 span{
-    text-align: center
+    text-align: center;
 }
 
 input[type=text] {
-    width: 100%;
+    width: 60%;
     box-sizing: border-box;
     border: 3px solid #f80;
     border-radius: 4px;
@@ -63,6 +63,7 @@ input[type=text] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     text-align: center;
+
 }
 
 input[type=text]:focus {
@@ -70,7 +71,16 @@ input[type=text]:focus {
     border-radius: 4px;
 }
 button{
-    background-color: #4CAF50;
+    background-color: #f80;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 
@@ -138,6 +148,7 @@ button{
     position: relative;
     display: inline-block;
     height: 30px;
+    /*width: 20px;*/
     min-width: 170px;
     margin-left: 20px;
     text-align: center;
@@ -148,7 +159,7 @@ button{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 100px;
     padding: 12px 16px;
 
 }
@@ -183,7 +194,7 @@ button{
 .search_container{
     margin-left: 110px;
     display: grid;
-    grid-template-columns: 20% 40% 20%;
+    grid-template-columns: 20% 60% 20%;
     grid-template-rows: 85px ;
     vertical-align: middle
 }

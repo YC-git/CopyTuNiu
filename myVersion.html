@@ -39,7 +39,7 @@
                     <li >       <a href="">sign up</a>  </li>
                     <li >        <a href="">My order</a> </li>
                     <li >       <a href="">Website Map</a>  </li>
-                    <div class="dropdown" >
+                    <div class="dropdown"  style="padding-top: 0px; z-index: 2;" >
                         <span >dropdown
                          <img src="Pic/chevron-down-outline.svg" width="10" height="10">
                         </span>
@@ -48,9 +48,16 @@
                             <a href="">dropdown12</a>
                         </div>
                     </div>
+
+
+
                 </ul>
 
+
+
             </div>
+
+
             <div class="search "  >    <!--using grid layout,!-->
                 <a href="">
                     <img src="Pic/logo.jpg" alt="This is a Gif"  style=" height: auto; width: auto; transform: translateY(0%)/**上移元素**/">
@@ -68,9 +75,32 @@
                         </div>
                     </div>
                     <div  >
-                        <form style="  text-align: center;" >
+                          <span  style="position: absolute;" >
+                              <div class="dropdown" >
+                                <span style="position: absolute; margin-left: -407px;margin-top: -46px; background-color: #e5e5e5; min-height: 40px;" >
+                                    <span>All Products
+
+                                     <img src="Pic/chevron-down-outline.svg" width="10" height="10">
+
+                                    </span>
+                                </span>
+                                <div class="dropdown-content" style="position: absolute; margin-left: -335px;margin-top: -6px;">
+                                    <p><a href="">dropdown1</a></p>
+                                    <a href="">dropdown12</a>
+                                </div>
+                              </div>
+
+                          </span>
+
+
+                        <form style="  text-align: left; z-index: 1; "  >
                             <input type="text" name="search" placeholder="搜索.." >
+
                         </form>
+                        <button class="button"  style="position: absolute; margin-left: 60px;margin-top: -48px">
+                            <img src="Pic/search-outline.svg" width="20" height="14">
+                        </button>
+
                     </div>
                     <div >
                         <span  >This part is mainly about our contact information</span>
