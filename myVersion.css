@@ -1,3 +1,16 @@
+div{
+    font-family:"微软雅黑"
+}
+
+footer{
+
+    width: 100%;
+    height: auto;
+    margin-left: -8px;
+}
+
+
+
 .main div{
 
 }
@@ -150,10 +163,10 @@ button{
 }
 
 .header{
-    height: 200px;
+    height: 155px;
     width: auto;
 }
-.header .login{
+.login{
     height: 29px;
     border-bottom-style: solid;
     border-color: white;
@@ -441,3 +454,48 @@ footer{
     text-align: center;
 
 }
+
+.nav-bargain {
+
+    height: 29px;
+    /*border-bottom: solid 3px;*/
+    /*border-color: grey;*/
+
+
+}
+.nav-bargain ul{
+border-bottom: solid grey;
+
+
+
+}
+
+.nav-bargain li:hover{
+    border-bottom: solid 3px;
+    border-color: green;
+    font-size:17px;
+
+}
+
+.pic-one{
+    /*width: auto;*/
+    /*height: 125px;*/
+    display: grid;
+    grid-template-columns:  repeat(4,25%);
+    grid-template-rows: 135px;
+}
+.pic-one img{
+
+    width: auto;
+    height: 125px;
+    /*margin-right: 50px;*/
+    margin-top: 10px;
+
+
+}
+
+.pic-one img:hover{
+border: solid orange;
+
+}
+
