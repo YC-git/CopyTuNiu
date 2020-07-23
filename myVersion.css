@@ -303,6 +303,7 @@ button{
     display: inline-block;
     vertical-align: top;
 
+
 }
 .Vice_nav1{
     display: none;
@@ -330,6 +331,8 @@ button{
     display: inline-block;
     vertical-align: top;
     background-color: grey;
+    z-index: 100;
+
 
 }  /*need a father-son relationship*/
 #one2 a:focus:after  {
@@ -341,6 +344,8 @@ button{
     display: inline-block;
     vertical-align: top;
     background-color: gold;
+    z-index: 100;
+
 }
 
 #one3 a:focus:after  {
