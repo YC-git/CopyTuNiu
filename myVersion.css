@@ -1,5 +1,6 @@
 div{
     font-family:"微软雅黑"
+
 }
 
 footer{
@@ -50,11 +51,18 @@ li a:hover,.dropdown:hover{
     color: red;
 }
 
-a img{
+a img, .flex-item_aside .fixed a img {
     height: 70px;
     width: 50px;
     padding: 0px;
     position: absolute;
+
+}
+.flex-item_aside a img{
+    height: auto;
+    width: auto;
+    padding: 0px;
+    position: static;
 
 }
 
@@ -499,3 +507,9 @@ border: solid orange;
 
 }
 
+img:hover{
+
+    /*filter: brightness(150%);*/
+    /*-webkit-filter: brightness(150%);*/
+    border-bottom: solid white;
+}
